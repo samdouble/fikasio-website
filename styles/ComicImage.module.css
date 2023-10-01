@@ -1,0 +1,30 @@
+.zone_comic_sm img, .zone_comic_md img, .zone_comic_lg img {
+  position: relative;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .zone_comic_sm { display: inline-block; }
+  .zone_comic_md { display: none; }
+  .zone_comic_lg { display: none; }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .zone_comic_sm { display: none; }
+  .zone_comic_md { display: inline-block; }
+  .zone_comic_lg { display: none; }
+}
+
+@media only screen and (min-width: 1200px) {
+  .zone_comic_sm { display: none; }
+  .zone_comic_md { display: none; }
+  .zone_comic_lg { display: inline-block; }
+  .zone_comic_sm img, .zone_comic_md img, .zone_comic_lg img {
+    width: 100%;
+  }
+}
+
+#comic_iframe {
+  width: 100%;
+  border: none;
+}
