@@ -21,7 +21,7 @@ const TopMenu = () => {
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <Nav className="mr-auto">
-            <Nav.Link href="https://app.fikas.io">Login</Nav.Link>
+            <Nav.Link href="https://app.fikas.io">Log in</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
