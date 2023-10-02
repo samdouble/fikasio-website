@@ -8,9 +8,6 @@ export type MyHeadProps = {
 const MyHead = ({ children, title = 'Fikas.io' }: MyHeadProps) => {
   return (
     <Head>
-      {
-        // TODO: Google Analytics
-      }
       <title>{ title }</title>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="description" content="A webcomic about current events and people in general" />
