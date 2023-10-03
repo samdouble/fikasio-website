@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
 import type { NextPage } from 'next';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import ReactGA from "react-ga4";
 import Footer from '../components/Footer';
 import Head from '../components/Head';
@@ -18,8 +21,18 @@ const Privacy: NextPage = () => {
       </Head>
       <main>
         <TopMenu />
-        <div className={styles.container}>
-        </div>
+        <Container>
+          <Row>
+            <Col>
+              <div className={styles.container}>
+              </div>
+            </Col>
+          </Row>
+          <Row style={{ marginTop: 20 }}>
+            <Col lg={12}>
+            </Col>
+          </Row>
+        </Container>
       </main>
       <Footer />
     </div>

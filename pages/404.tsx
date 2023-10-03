@@ -21,17 +21,17 @@ const Custom404: NextPage = () => {
       </Head>
       <main>
         <TopMenu />
-        <div className={styles.container}>
-          <h2>Error 404</h2>
-          <p>Go back to <a href="/">the main page</a></p>
-          <br />
-          <Container>
-            <Row style={{ marginTop: 20 }}>
-              <Col lg={12}>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+        <Container>
+          <div className={styles.container}>
+            <h2>Error 404</h2>
+            <p>Go back to <a href="/">the main page</a></p>
+            <br />
+              <Row style={{ marginTop: 20 }}>
+                <Col lg={12}>
+                </Col>
+              </Row>
+          </div>
+        </Container>
       </main>
       <Footer />
     </div>

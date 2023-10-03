@@ -29,7 +29,6 @@ const App = ({ Component, pageProps }: AppProps) => {
           `,
         }}
       />
-      { /* Buy Me a Coffee */ }
       <Component {...pageProps} />
     </>
   );

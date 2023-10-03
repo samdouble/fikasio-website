@@ -41,7 +41,6 @@ const Comic: FunctionComponent<ComicProps> = ({
           image
           && image.section
           && imagesInSameSection
-          && (nbImagesInSection > 1)
           && ` [${(indexOfImageInSection + 1)} /${nbImagesInSection}]`
         }
       </h2>
@@ -63,21 +62,6 @@ const Comic: FunctionComponent<ComicProps> = ({
             <br />
             <br />
           </>)
-      }
-      {
-        image
-          ? (
-            <iframe
-              // height={height}
-              id="comic_iframe"
-              src={`/i/e/${image.id}`}
-              width="100%"
-            />
-          ) : (
-            <div className={styles.nothingToShow}>
-              <span>Sorry, nothing to show here.</span>
-            </div>
-          )
       }
       <div>
         {
