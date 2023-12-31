@@ -4,13 +4,14 @@
 
 .topnav a {
   border-radius: 5px;
-  float: left;
+  color: #400080;
   display: block;
-  color: #14861d;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  float: left;
   font-size: 17px;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .topnav a:hover {
@@ -28,8 +29,8 @@
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: right;
     display: block;
+    float: right;
   }
 }
 
@@ -41,8 +42,8 @@
     top: 0;
   }
   .topnav.responsive a {
-    float: none;
     display: block;
+    float: none;
     text-align: left;
   }
 }

@@ -17,26 +17,19 @@ const Pricing: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>{`fikas.io - Pricing`}</title>
+        <title>{`fikas.io - FAQ`}</title>
       </Head>
       <main>
         <TopMenu />
         <Container>
           <Row>
-            <Col lg={4}>
+            <Col>
               <div className={styles.container}>
-                <h3>Free</h3>
               </div>
             </Col>
-            <Col lg={4}>
-              <div className={styles.container}>
-                <h3>Pro</h3>
-              </div>
-            </Col>
-            <Col lg={4}>
-              <div className={styles.container}>
-                <h3>Enterprise</h3>
-              </div>
+          </Row>
+          <Row style={{ marginTop: 20 }}>
+            <Col lg={12}>
             </Col>
           </Row>
         </Container>

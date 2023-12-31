@@ -4,6 +4,7 @@ This is the website for [fikas.io](https://fikas.io)
 
 ## Technologies & Languages
 
+- Node
 - TypeScript
 - Next.js
 - React
