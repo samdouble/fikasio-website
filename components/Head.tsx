@@ -5,7 +5,7 @@ export type MyHeadProps = {
   title?: String;
 };
 
-const MyHead = ({ children, title = 'Fikas.io' }: MyHeadProps) => {
+const MyHead = ({ children, title = 'fikas.io' }: MyHeadProps) => {
   return (
     <Head>
       <title>{ title }</title>

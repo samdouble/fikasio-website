@@ -17,7 +17,7 @@ const Pricing: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>{`Fikas.io - Pricing`}</title>
+        <title>{`fikas.io - Pricing`}</title>
       </Head>
       <main>
         <TopMenu />

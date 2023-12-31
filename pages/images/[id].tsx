@@ -29,7 +29,7 @@ const ImagePage: NextPage<ImagePageProps> = ({ images }) => {
   return (
     <div>
       <Head>
-        <title>{`Fikas.io - ${image?.date}`}</title>
+        <title>{`fikas.io - ${image?.date}`}</title>
       </Head>
       <main>
         <TopMenu />

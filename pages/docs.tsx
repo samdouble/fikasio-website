@@ -9,7 +9,7 @@ import Head from '../components/Head';
 import TopMenu from '../components/TopMenu';
 import styles from '../styles/Home.module.css';
 
-const Privacy: NextPage = () => {
+const Docs: NextPage = () => {
   useEffect(() => {
     ReactGA.send('pageview');
   }, []);
@@ -17,7 +17,7 @@ const Privacy: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>{`fikas.io - Privacy`}</title>
+        <title>{`fikas.io - Documentation`}</title>
       </Head>
       <main>
         <TopMenu />
@@ -39,4 +39,4 @@ const Privacy: NextPage = () => {
   );
 }
 
-export default Privacy;
+export default Docs;

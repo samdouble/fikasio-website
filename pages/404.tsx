@@ -17,7 +17,7 @@ const Custom404: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>{`Fikas.io - 404`}</title>
+        <title>{`fikas.io - 404`}</title>
       </Head>
       <main>
         <TopMenu />
