@@ -18,7 +18,7 @@ const TopMenu = () => {
             <Nav.Link href="/pricing">Pricing</Nav.Link>
             <Nav.Link href="/docs">Documentation</Nav.Link>
             <Nav.Link href="/faq">FAQ</Nav.Link>
-            <Nav.Link href="/about">À propos</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <Nav className="mr-auto">
