@@ -23,9 +23,9 @@ services:
     branch: master
     deploy_on_push: true
     repo: samdouble/fikasio-website
-  http_port: 8080
+  http_port: 3000
   instance_count: 1
   instance_size_slug: basic-xxs
   name: fikasio-website
-  run_command: yarn start
+  run_command: USE_SSH=true yarn serve
   source_dir: /

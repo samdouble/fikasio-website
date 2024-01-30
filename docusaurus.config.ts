@@ -58,9 +58,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Home',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'fikas.io',
         src: 'img/logo.svg',
       },
       items: [
@@ -68,14 +68,36 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Pricing',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Documentation',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'FAQ',
+        },
+        {
+          to: '/blog',
+          label: 'Blog',
+          position: 'left',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'About',
+        },
+        {
+          href: 'https://app.fikas.io',
+          label: 'Go to App',
+          position: 'right',
+        }
       ],
     },
     footer: {
