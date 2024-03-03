@@ -8,7 +8,6 @@ import Footer from '../components/Footer';
 import Head from '../components/Head';
 import TopMenu from '../components/TopMenu';
 import { ImageDef } from '../components/types';
-import styles from '../styles/Home.module.css';
 import db from './db.json';
 
 type HomePageProps = {
