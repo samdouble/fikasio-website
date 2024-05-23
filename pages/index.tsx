@@ -23,7 +23,6 @@ const Home: NextPage<HomePageProps> = ({ images }) => {
     <div>
       <Head>
         <title>{`fikas.io - Home`}</title>
-        <meta name="cryptomus" content="5cef8009" />
       </Head>
       <main>
         <TopMenu />
